@@ -1,0 +1,241 @@
+*  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+.container {
+	/*border: 1px solid black;*/
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bg-circle {
+	/*border: 1px solid black;*/
+	width: 75px;
+	height: 75px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.sm-circle {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+#one {
+	position: absolute;
+	top: 25%;
+	left: 65%;
+	background-color: #66ff00;
+	animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+	50% {
+		width: 0;
+		height: 0;
+		top: 31%;
+		left: 72%;
+	}
+
+}
+
+#two {
+	position: absolute;
+	top: 38%;
+	left: 71%;
+	background: #32CD32;
+	animation: a_sec 2s linear infinite;
+}
+
+@keyframes a_sec {
+	50% {
+		width: 0;
+		height: 0;
+		top: 45%;
+		left: 77%;
+	}
+}
+
+#three {
+	position: absolute;
+	top: 52%;
+	left: 70%;
+	background: #2e8b57;
+	animation: a_third 2s linear infinite;
+}
+
+@keyframes a_third {
+	50% {
+		width: 0;
+		height: 0;
+		top: 58%;
+		left: 75%;
+	}
+}
+
+#four {
+	position: absolute;
+	top: 64%;
+	left: 62%;
+	background: cyan;
+	animation: a_four 2s linear infinite;
+}
+
+@keyframes a_four {
+	50% {
+		width: 0;
+		height: 0;
+		top: 70%;
+		left: 69%;
+	}
+}
+
+#five {
+	position: absolute;
+	top: 71%;
+	left: 49%;
+	background: #6699cc;
+	animation: a_five 2s linear infinite;
+}
+
+@keyframes a_five {
+	50% {
+		width: 0;
+		height: 0;
+		top: 76%;
+		left: 55%;
+	}
+}
+
+#six {
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	background: #000080;
+	animation: a_six 2s linear infinite;
+}
+
+@keyframes a_six {
+	50% {
+		width: 0;
+		height: 0;
+		top: 75%;
+		left: 40%;
+	}
+}
+
+#seven {
+	position: absolute;
+	top: 62%;
+	left: 22%;
+	background: purple;
+	animation: a_seven 2s linear infinite;
+}
+
+@keyframes a_seven {
+	50% {
+		width: 0;
+		height: 0;
+		top: 68%;
+		left: 30%;
+	}
+}
+
+#eight {
+	position: absolute;
+	top: 48%;
+	left: 17%;
+	background: red;
+	animation: a_eight 2s linear infinite;
+}
+
+@keyframes a_eight {
+	50% {
+		width: 0;
+		height: 0;
+		top: 55%;
+		left: 23%;
+	}
+}
+
+#nine {
+	position: absolute;
+	top: 34%;
+	left: 18%;
+	background: #ff4500; /* Red Orange */
+	animation: a_nine 2s linear infinite;
+}
+
+@keyframes a_nine {
+	50% {
+		width: 0;
+		height: 0;
+		top: 40%;
+		left: 25%;
+	}
+}
+
+#ten {
+	position: absolute;
+	top: 22%;
+	left: 26%;
+	background: orange;
+	animation: a_ten 2s linear infinite;
+}
+
+@keyframes a_ten {
+	50% {
+		width: 0;
+		height: 0;
+		top: 27%;
+		left: 32%;
+	}
+}
+
+#eleven {
+	position: absolute;
+	top: 16%;
+	left: 39%;
+	background: #f8d568;  /* Yellow Orange*/
+	animation: a_eleven 2s linear infinite;
+}
+
+@keyframes a_eleven {
+	50% {
+		width: 0;
+		height: 0;
+		top: 23%;
+		left: 45%;
+	}
+}
+
+#tweleve {
+	position: absolute;
+	top: 17%;
+	left: 53%;
+	background: yellow;
+	animation: a_tweleve 2s linear infinite;	
+}
+
+@keyframes a_tweleve {
+	50% {
+		width: 0;
+		height: 0;
+		top: 26%;
+		left: 58%;
+	}
+}
